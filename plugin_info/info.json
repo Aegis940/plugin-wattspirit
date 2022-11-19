@@ -1,0 +1,34 @@
+{
+	"id" : "wattspirit",
+	"name" : "Wattspirit",
+	"description" : {
+		"fr_FR": "Récupération des mesures brutes remontées par l'outil d’aide au diagnostic Wattspirit."
+	},
+	"licence" : "AGPL",
+	"author" : "Aegis",
+	"require" : "4.2.21",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+    "changelog": "https:\/\/Aegis940.github.io\/plugin-wattspirit\/#language#\/changelog",
+    "documentation": "https:\/\/Aegis940.github.io\/plugin-wattspirit\/#language#\/",
+	"changelog_beta" : "https:\/\/Aegis940.github.io\/plugin-wattspirit\/#language#\/changelog",
+	"documentation_beta" : "https:\/\/Aegis940.github.io\/plugin-wattspirit\/#language#\/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-wattspirit"
+	},	
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
