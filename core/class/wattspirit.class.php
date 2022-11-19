@@ -26,7 +26,7 @@ class wattspirit extends eqLogic {
   * Tableau multidimensionnel - exemple: array('custom' => true, 'custom::layout' => false)
   public static $_widgetPossibility = array();
   */
-  public static $_widgetPossibility = array('custom' => false, 'custom::layout' => false);
+  public static $_widgetPossibility = array('custom' => true, 'custom::layout' => false);
   
   /*
   * Permet de crypter/décrypter automatiquement des champs de configuration du plugin
