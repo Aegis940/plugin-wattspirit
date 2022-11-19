@@ -9,7 +9,7 @@ Les types de données de consommation suivants sont accessibles :
 
 
 # Configuration
-
+>
 
 ## Configuration du plugin
 >
