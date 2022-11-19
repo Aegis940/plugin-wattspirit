@@ -1,0 +1,5 @@
+theme: jekyll-theme-midnight
+title: plugin-wattspirit
+description: Jeedom plugin to retrieve power measure from my.wattspirit.com
+show_downloads: true
+logo: /assets/images/logo.png
