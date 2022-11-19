@@ -7,11 +7,11 @@ Plugin permettant la récupération des mesures de puissance du compteur électr
 Les types de données de consommation suivants sont accessibles :
 - La **puissance** mesurée au compteur *(en W)*.
 
+
 # Configuration
 
 ## Configuration du plugin
 
-> Les données sont vérifiées, par défaut, toutes les heures entre 4h et 22h et mises à jour uniquement si non disponibles dans Jeedom. L'heure de début peut être réglée entre 1h et 20h.
 
 ## Configuration des équipements
 
