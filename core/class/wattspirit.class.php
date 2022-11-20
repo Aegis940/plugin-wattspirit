@@ -166,6 +166,10 @@ class wattspirit extends eqLogic {
 
             $line = 0;
             $measures = json_decode($data,true); 
+			
+			if (count($measures) == 0) 
+            	log::add(__CLASS__, 'warning', $this->getHumanName() . ' Aucune donnée pour le créneau $start_date => $end_date');
+			
             foreach ($measures as $record) {
 
                     $line = $line +1;
