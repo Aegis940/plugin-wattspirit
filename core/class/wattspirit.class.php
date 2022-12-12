@@ -197,6 +197,7 @@ class wattspirit extends eqLogic {
           }
           catch (exception $e) {
       			log::add(__CLASS__,'error', $this->getHumanName() . " Error: " .$e);
+				$lastMeasureDate = $lastCollectDate;
 	      }
         
           $this->reschedule($lastMeasureDate);
